@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çıkma Teklifi Trol</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Comic Sans MS', sans-serif; overflow-x:hidden; scroll-behavior:smooth; background:#ffe;}
+section {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-size:2.5em;
+  text-align:center;
+  transition: all 0.5s;
+  padding: 0 20px;
+}
+#sec1 { background:#ff6f61; color:white;}
+#sec2 { background:#6b5b95; color:white;}
+#sec3 { background:#88b04b; color:white;}
+#sec4 { background:#f7cac9; color:black;}
+.btn { padding:15px 30px; font-size:1.2em; cursor:pointer; border:none; border-radius:15px; margin:10px; transition:0.3s;}
+.btn:hover { transform: scale(1.1);}
+</style>
+</head>
+<body>
+<section id="sec1">Hey! 👋</section>
+<section id="sec2">Sana bir şey soracağım… 🤔</section>
+<section id="sec3">Bana çıkmayı kabul eder misin? 😎</section>
+<section id="sec4">
+<button class="btn" onclick="alert('Ooo harika! 💕')">Evet!</button>
+<button class="btn" onclick="alert('Hmm belki sonra… 😂')">Hayır</button>
+</section>
+</body>
+</html>
